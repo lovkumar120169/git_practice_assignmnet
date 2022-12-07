@@ -2,18 +2,22 @@ let num=10;
 
 let count=0;
 
-for(let i=0;i<num;i++){
+for(let i=1;i<=num;i++){
 
-  if(num%==0){
+  if(num%i==0){
 
-count++;
+     count++;
+  }
+
 }
 
-}
 
-
-if(){
+if(count==2){
 
 console.log("prime");
+}
+else{
+
+console.log("not prime");
 }
 
